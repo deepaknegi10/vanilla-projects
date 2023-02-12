@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.draggable {
+  cursor: pointer;
+}
+
+.draggable-list li.over .draggable {
+  background-color: #eaeaea
+}
+
+.draggable-list li.right .lake-name {
+  color: #6fb537
+}
+
+.draggable-list li.wrong .lake-name {
+  color: #e55c37;
+}
+
+.check:active {
+  transform: scale(.98)
+}
